@@ -1,0 +1,55 @@
+cd ..
+ls
+cd w18Lab2
+ls
+git status
+git init
+git remote add origin https://github.com/Fregaladol/w18Lab2.git
+git remote -v
+git status
+git add *
+git commit
+git push
+git branch -M main
+git push --set-upstream origin main
+cd
+cd .ssh
+ls
+cd Documentos/SOC/FullStack/Semana\ 18/
+cd ~/Documentos/SOC/FullStack/Semana\ 18/
+ls
+cd w18Lab2
+git push --set-upstream origin main
+cd
+cd ~/Documentos/SOC/FullStack/Semana\ 18/w18Lab2
+git push --set-upstream origin main
+cd
+cd .ssh
+ls
+rm cursos_soc cursos_soc.pub gitSoc.pub gitSoc
+ssh-keygen -t ed25519 -C friigaiden@gmail.com
+cat gitSoc.pub 
+ssh -T git@github.com
+ls
+ssh-add ~/.ssh/gitSoc.pub 
+ssh-add ~/.ssh/gitSoc
+ssh -T git@github.com
+cd ~/Documentos/SOC/FullStack/Semana\ 18/w18Lab2
+git push --set-upstream origin main
+git remote set-url origin git@github.com:Fregaladol/w18Lab2.git
+ssh -T git@github.com
+git push -u origin main
+git checkout -b v3
+git status 
+git add *
+git commit 
+git push
+git branch --show-current 
+git checkout -b v3
+git status
+git add *
+git commit
+git push -u origin v3
+cd ..
+ls
+history -a log_22292025.txt

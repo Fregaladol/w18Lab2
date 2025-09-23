@@ -1,0 +1,104 @@
+/* Fuentes retro */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Fondo y colores oscuros */
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1f1f1f, #0a0a0a);
+    border-bottom: 3px solid #ff00ff;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00ffcc;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+button {
+    font-family: inherit;
+    background-color: #ff00ff;
+    border: 3px solid #00ffcc;
+    color: #0d0d0d;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ffcc;
+    color: #0d0d0d;
+    transform: scale(1.1);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.feature {
+    background-color: #1a1a1a;
+    border: 2px dashed #ff00ff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+
+    display: inline-block; /* Hace que el ancho se ajuste al contenido */
+    width: auto;           /* Permite cuadro de dialogo ajuzte al texto ancho */
+}
+
+
+
+.feature h2 {
+    margin-bottom: 10px;
+    color: #ff00ff;
+}
+
+.feature p {
+    color: #e0e0e0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #111111;
+    color: #999999;
+    font-size: 0.8rem;
+    border-top: 3px solid #00ffcc;
+}
+
+.tech-banner {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-banner i {
+    font-size: 50px; /* tamaño de los iconos */
+}
+

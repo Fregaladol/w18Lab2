@@ -1,4 +1,4 @@
-
-document.getElementById('cta-btn').addEventListener('click', () => {
-    alert("¡Bienvenido al mundo retro de los 90!");
-});
+// v3 - mensaje de despedida
+function saludar() {
+  console.log("Habra conflicto ahora ?");
+}
